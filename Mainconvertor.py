@@ -85,7 +85,7 @@ def custom_currency(message):
 
 # Функция для выполнения конвертации валюты
 def convert_currency(message, from_currency, to_currency):
-    #валидация
+    #валидац
     try:
         result = currency.convert(amount, from_currency, to_currency)
         log_conversion(amount, from_currency, to_currency, result) 
