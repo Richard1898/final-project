@@ -26,3 +26,17 @@
  - 2 happy path
  - 4 use-cases
  - 4 edge-cases
+ 	Happy path
+1.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Konvertējot 10 EUR uz USD. Rezultātam jābūt 10,83 USD. 
+2.	Testa gadījums Valūtas maiņas kurss ir 7,82. Konvertējot 15 EUR uz CNY. Rezultātam jābūt 117,3 CNY. 
+	Use-cases 
+1.	Testa gadījums Valūtas maiņas kurss ir 0,86. Konvertējot 987 EUR uz GBP. Rezultātam jābūt 848,82 GBP. 
+2.	Testa gadījums Valūtas maiņas kurss ir 90,41. Konvertējot 197 USD uz INR. Rezultātam jābūt 16450,40 INR. 
+3.	Testa gadījums  Valūtas maiņas kurss ir 1,0831. Konvertējot 23435 EUR uz USD. Rezultātam jābūt 25382.4485 USD. 
+4.	Testa gadījums  Valūtas maiņas kurss ir 0.86. Konvertējot 9234 EUR uz GBP. Rezultātam jābūt 7941.24GBP. 
+	Edge-cases
+1.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Konvertējot 0 EUR uz USD. Rezultātam jābūt 0 USD. 
+2.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Konvertējot -10 EUR uz USD. Sistēmai jāatgriež kļūdas ziņojums, norādot, ka summai jābūt lielākai par nulli. 
+3.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Konvertējot 10 EUR uz neatbalstītu valūtu  XYZ. Sistēmai jāatgriež kļūdas ziņojums, norādot, ka valūta nav atbalstīta. 
+4.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Nepareizs valūtas pāra formāts  sFh/Daw. Sistēmai jāatgriež kļūdas ziņojums, norādot, ka pareizais formāts ir “EUR/USD”.
+

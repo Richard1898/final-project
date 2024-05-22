@@ -1,0 +1,44 @@
+[
+    {
+        "amount": 52,
+        "from_currency": "EUR",
+        "to_currency": "GBP",
+        "result": 44.44856
+    },
+    {
+        "amount": 1,
+        "from_currency": "EUR",
+        "to_currency": "GBP",
+        "result": 0.85478
+    },
+    {
+        "amount": 123,
+        "from_currency": "EUR",
+        "to_currency": "CNY",
+        "result": 954.5907000000001
+    },
+    {
+        "amount": 98,
+        "from_currency": "EUR",
+        "to_currency": "USD",
+        "result": 105.03640000000001
+    },
+    {
+        "amount": 27373,
+        "from_currency": "EUR",
+        "to_currency": "GBP",
+        "result": 23397.892939999998
+    },
+    {
+        "amount": 27373,
+        "from_currency": "INR",
+        "to_currency": "EUR",
+        "result": 306.1326056444353
+    },
+    {
+        "amount": 345,
+        "from_currency": "INR",
+        "to_currency": "EUR",
+        "result": 3.858391442199619
+    }
+]
