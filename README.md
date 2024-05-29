@@ -32,8 +32,8 @@
 	Use-cases 
 1.	Testa gadījums Valūtas maiņas kurss ir 0,86. Konvertējot 987 EUR uz GBP. Rezultātam jābūt 848,82 GBP. 
 2.	Testa gadījums Valūtas maiņas kurss ir 90,41. Konvertējot 197 USD uz INR. Rezultātam jābūt 16450,40 INR. 
-3.	Testa gadījums  Valūtas maiņas kurss ir 1,0831. Konvertējot 23435 EUR uz USD. Rezultātam jābūt 25382.4485 USD. 
-4.	Testa gadījums  Valūtas maiņas kurss ir 0.86. Konvertējot 9234 EUR uz GBP. Rezultātam jābūt 7941.24GBP. 
+3.	Testa gadījums  Valūtas maiņas kurss ir 0.99. Konvertējot 23435 EUR uz CHF. Rezultātam jābūt 23178.98 CHF. 
+4.	Testa gadījums  Valūtas maiņas kurss ir 106.34. Konvertējot 9234 GBP uz INR. Rezultātam jābūt 981921.96INR. 
 	Edge-cases
 1.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Konvertējot 0 EUR uz USD. Rezultātam jābūt 0 USD. 
 2.	Testa gadījums Valūtas maiņas kurss ir 1,0831. Konvertējot -10 EUR uz USD. Sistēmai jāatgriež kļūdas ziņojums, norādot, ka summai jābūt lielākai par nulli. 
